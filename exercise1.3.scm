@@ -1,6 +1,6 @@
 (define (sum-of-squares x y)
   (+ (* x x) (* y y)))
-(sum-of-squares 5 5)
+
 (define (sum-lrg x y z)
   (cond ((and (> x y) (> y z)) (sum-of-squares x y))
         ((and (> y x) (> z x)) (sum-of-squares y z))
